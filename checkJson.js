@@ -1,0 +1,3 @@
+{
+  "builddAPP": true
+}
