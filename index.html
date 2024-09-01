@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSON API</title>
     <script>
+        Redirect to your custom URI scheme after 2 seconds
+        setTimeout(function() {
+            console.log("Redirecting to the custom URI scheme...");
+            window.location.href = "rightenapp://";
+        }, 2000);  // 2000 milliseconds = 2 seconds
     </script>
 </head>
 <body>
